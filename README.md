@@ -8,6 +8,7 @@
 ## ВАРІАНТ 1
 
 **webui-localization-ua_UA**    -покласти в директорію     **...\extensions**
+
 **hints.js**  -покласти в директорію     **...\javascript**
 
 
