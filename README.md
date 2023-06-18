@@ -1,6 +1,9 @@
 # webui-localization-ua_UA
  Локалізація #stable-diffusion-webui
 
+Онлайн версія:   Stable Diffusion: https://github.com/easydiffusion/easydiffusion
+Професійна  локальна версія (потрібна відеокарта NVIDIA 4гб ОЗУ) Stable Diffusion Portable: https://github.com/serpotapov/stable-diffusion-portable
+
 ВАРІАНТ 1
 
 webui-localization-ua_UA    -покласти в директорію     ...\extensions
