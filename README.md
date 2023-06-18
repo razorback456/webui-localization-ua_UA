@@ -1,4 +1,3 @@
-# webui-localization-ua_UA
 # Локалізація  stable-diffusion-webui
 
 Онлайн версія:  **Stable Diffusion:** https://github.com/easydiffusion/easydiffusion
