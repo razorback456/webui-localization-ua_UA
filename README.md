@@ -95,14 +95,14 @@
 - Highres Fix, зручна опція для створення зображень високої роздільної здатності в один клік без звичайних спотворень
 - Перезавантаження Чекпоінтів на льоту
 - Checkpoint Merger, вкладка, яка дозволяє об'єднати до 3 Checkpoint точок в одну
-- [Користувацькі сценарії](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts) із багатьма розширеннями від спільноти
+- [Скрипти](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts) із багатьма розширеннями від спільноти
 - [Composable-Diffusion](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/), спосіб використання кількох промптів одночасно
      - розділяйте промпти великими літерами `AND`
      - також підтримує ваги для підказок: `a cat :1.2 AND a dog AND a penguin :2.2`
-- No token limit for prompts (original stable diffusion lets you use up to 75 tokens)
-- DeepDanbooru integration, creates danbooru style tags for anime prompts
-- [xformers](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Xformers), major speed increase for select cards: (add `--xformers` to commandline args)
-- via extension: [History tab](https://github.com/yfszzx/stable-diffusion-webui-images-browser): view, direct and delete images conveniently within the UI
+- Немає ліміту токенів для підказок (оригінальна stable diffusion дозволяє використовувати до 75 токенів)
+- DeepDanbooru інтеграція, створює теги стилю danbooru для підказок аніме
+- [xformers](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Xformers), значне збільшення швидкості для вибраних карток: (додайте `--xformers` до аргументів командного рядка)
+- через розширення: [вкладка «Історія»](https://github.com/yfszzx/stable-diffusion-webui-images-browser): зручно переглядати, направляти та видаляти зображення в  UI
 - Generate forever option
 - Training tab
      - hypernetworks and embeddings options
