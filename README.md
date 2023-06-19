@@ -25,7 +25,7 @@
  Приклад повного шляху: </br>
  `С:\stable-diffusion-portable-main\models\Stable-diffusion\Deliberate_v2.safetensors`
 5. Після завершення завантаження ваш браузер запустить Stable Diffusion</br>
- Основною програмою запуску на майбутнє буде `webui-user.bat
+ Основною програмою запуску на майбутнє буде `webui-user.bat`
 6. при помилках через нестачу пам'яті, в `webui-user.bat`  потрібно додпти ключі `--medvram --no-half`
    в  рядок `set COMMANDLINE_ARGS`
 наприклад: `set COMMANDLINE_ARGS= --xformers --autolaunch  --medvram --no-half` 
