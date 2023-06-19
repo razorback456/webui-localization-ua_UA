@@ -102,27 +102,27 @@
 - Немає ліміту токенів для підказок (оригінальна stable diffusion дозволяє використовувати до 75 токенів)
 - DeepDanbooru інтеграція, створює теги стилю danbooru для підказок аніме
 - [xformers](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Xformers), значне збільшення швидкості для вибраних карток: (додайте `--xformers` до аргументів командного рядка)
-- через розширення: [вкладка «Історія»](https://github.com/yfszzx/stable-diffusion-webui-images-browser): зручно переглядати, направляти та видаляти зображення в  UI
-- Generate forever option
-- Training tab
-     - hypernetworks and embeddings options
-     - Preprocessing images: cropping, mirroring, autotagging using BLIP or deepdanbooru (for anime)
-- Clip skip
-- Hypernetworks
-- Loras (same as Hypernetworks but more pretty)
-- A sparate UI where you can choose, with preview, which embeddings, hypernetworks or Loras to add to your prompt 
-- Can select to load a different VAE from settings screen
-- Estimated completion time in progress bar
+- через розширення: [вкладка «Історія»](https://github.com/yfszzx/stable-diffusion-webui-images-browser): зручно переглядати, направляти та видаляти зображення в  UI (застаріло)
+- Постійно генерувати параметр
+- Вкладка навчання
+     - hypernetworks та embeddings параметри
+     - Preprocessing зображення: кадрування, дзеркальне відображення, автоматичне тегування за допомогою BLIP або deepdanbooru (для аніме)
+- Clip пропуск
+- `Hypernetworks`
+- `Loras` (те саме, що й гіпермережі, але більш гарне)
+- Окремий UI, у якому ви можете вибрати (з попереднім переглядом), які `embeddings`, `hypernetworks` чи `Loras` додати до підказки
+- Можна вибрати завантаження іншого VAE з екрана налаштувань
+- Приблизний час завершення на панелі виконання
 - API
-- Support for dedicated [inpainting model](https://github.com/runwayml/stable-diffusion#inpainting-with-stable-diffusion) by RunwayML
-- via extension: [Aesthetic Gradients](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients), a way to generate images with a specific aesthetic by using clip images embeds (implementation of [https://github.com/vicgalle/stable-diffusion-aesthetic-gradients](https://github.com/vicgalle/stable-diffusion-aesthetic-gradients))
-- [Stable Diffusion 2.0](https://github.com/Stability-AI/stablediffusion) support - see [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#stable-diffusion-20) for instructions
-- [Alt-Diffusion](https://arxiv.org/abs/2211.06679) support - see [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#alt-diffusion) for instructions
-- Now without any bad letters!
-- Load checkpoints in safetensors format
-- Eased resolution restriction: generated image's domension must be a multiple of 8 rather than 64
-- Now with a license!
-- Reorder elements in the UI from settings screen
+- Підтримка спеціальної [моделі малювання](https://github.com/runwayml/stable-diffusion#inpainting-with-stable-diffusion) від RunwayML
+- через розширення: [Aesthetic Gradients](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients), спосіб генерувати зображення з певною естетикою за допомогою вбудованих зображень кліпів (реалізація [https:/ /github.com/vicgalle/stable-diffusion-aesthetic-gradients](https://github.com/vicgalle/stable-diffusion-aesthetic-gradients))
+-Підтримка [Stable Diffusion 2.0](https://github.com/Stability-AI/stablediffusion) – див. [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#stable-diffusion) -20) для інструкцій
+- Підтримка [Alt-Diffusion](https://arxiv.org/abs/2211.06679) — див. [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#alt-diffusion) інструкції
+- Тепер без поганих букв!
+- Завантажте Чекпоінти у форматі safetensors
+- Полегшене обмеження роздільності: розмір створеного зображення має бути кратним 8, а не 64
+- Тепер з ліцензією!
+- Змініть порядок елементів в інтерфейсі користувача з екрана налаштувань
 
 ## Installation and Running
 Make sure the required [dependencies](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies) are met and follow the instructions available for both [NVidia](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs) (recommended) and [AMD](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-AMD-GPUs) GPUs.
