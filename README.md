@@ -41,7 +41,8 @@
     - [X] **Stable Diffusion Portable: сайт автора**          https://github.com/serpotapov/stable-diffusion-portable
   
 -  Вікіпедія по нейронкі:
-    - [ ] https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki
+    - [ ]Укр.  https://github.com/razorback456/webui-localization-ua_UA/wiki
+    - [ ]Англ. https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki
 
 # Переклад Редмі: 
 - Оригінал: https://github.com/AUTOMATIC1111/stable-diffusion-webui
@@ -185,7 +186,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusio
 Ось як додати код до цього сховища: [Внесок](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Внесок)
 
 ## документація
-Документацію було переміщено з цього README до [вікі] проекту (https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki).
+Документацію було переміщено з цього README до  ([ВІКІПЕДІЇ] (https://github.com/razorback456/webui-localization-ua_UA/wiki)) проекту.
 
 ## Ліцензії
 Ліцензії для запозиченого коду можна знайти на екрані `Налаштування - Ліцензії`, а також у файлі `html/licenses.html`.
