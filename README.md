@@ -60,23 +60,23 @@
     - `RealESRGAN`, нейронна мережа `upscaler`(збільшення роздільності зоображення)
     - `ESRGAN`, нейронна мережа `upscaler` з великою кількістю сторонніх моделей
     - `SwinIR` та `Swin2SR` ([посилання..](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/2092)),  нейроннки `upscaler`
-    - `LDSR`, Latent diffusion super resolution (Надроздільна здатність латентної дифузії) `upscaler`
+    - `LDSR`, Latent diffusion super resolution (Надроздільність латентної дифузії) `upscaler`
 - `Resizing` - зміни розміру та пропорції
 - вибір методу `Самплінгу`
-    - Adjust sampler eta values (noise multiplier)
-    - More advanced noise setting options
-- Interrupt processing at any time
-- 4GB video card support (also reports of 2GB working)
-- Correct seeds for batches
-- Live prompt token length validation
-- Generation parameters
-     - parameters you used to generate images are saved with that image
-     - in PNG chunks for PNG, in EXIF for JPEG
-     - can drag the image to PNG info tab to restore generation parameters and automatically copy them into UI
-     - can be disabled in settings
-     - drag and drop an image/text-parameters to promptbox
-- Read Generation Parameters Button, loads parameters in promptbox to UI
-- Settings page
+    - Налаштувати ета-значення семплера (множник шуму)
+    - Додаткові параметри налаштування шуму
+- Перервати обробку в будь-який час
+- Підтримка відеокарти 4 ГБ (також повідомляється про роботу 2 ГБ)
+- Правильне `seeds` для партій зображень
+- Автоматичне оновлення лічильника токенів
+- Параметри генерації
+     - параметри, які ви використовували для створення зображень, зберігаються разом із цим зображенням
+     - у фрагментах PNG для PNG, у EXIF ​​для JPEG
+     - можна перетягнути зображення на інформаційну вкладку PNG, щоб відновити параметри генерації та автоматично скопіювати їх в інтерфейс користувача
+     - можна вимкнути в налаштуваннях
+     - `drag and drop` зображень/тексту у вікно промпту
+- Read Generation Parameters Button, читає промпт з картинки 
+- Сторінка налаштувань
 - Running arbitrary python code from UI (must run with `--allow-code` to enable)
 - Mouseover hints for most UI elements
 - Possible to change defaults/mix/max/step values for UI elements via text config
