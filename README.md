@@ -13,14 +13,33 @@
 - натиснути "встановити"(Інстал)
 ![screenshot2](https://github.com/razorback456/webui-localization-ua_UA/assets/11790479/08144c38-fc4a-48e4-b28c-87b075f332a7)
 - натиснути "прийняти і рестартонути UV"
+----
+## Установка Stable Diffusion Portable: потрібна відеокарта NVIDIA 4гб ОЗУ  (для інших карт встановлюй версію EasyDiffusion нижче)
+1. скачати [Stable Diffusion Portable](https://github.com/serpotapov/stable-diffusion-portable/archive/refs/heads/main.zip)
+2. розпакувати `stable-diffusion-portable-main` на диск `c:\` </br>
+ Бажано кореневий каталог, шлях не повинен містити пробілів і кирилиці</br>
+ приклад: `С:\stable-diffusion-portable-main`</br>
+3. Запустити `webui-user-first-run.cmd` і зачекайте пару секунд
+4.Коли ви бачите папку `models` (під час роботи cmd),</br>
+ розмістити будь-яку модель (наприклад [Deliberate](https://huggingface.co/XpucT/Deliberate/resolve/main/Deliberate_v2.safetensors)) у каталозі `...modelsStable-diffusion`</br>
+ Приклад повного шляху: </br>
+ `С:\stable-diffusion-portable-main\models\Stable-diffusion\Deliberate_v2.safetensors`
+5. Після завершення завантаження ваш браузер запустить Stable Diffusion</br>
+ Основною програмою запуску на майбутнє буде `webui-user.bat
+6. при помилках через нестачу пам'яті, в `webui-user.bat`  потрібно додпти ключі `--medvram --no-half`
+   в  рядок `set COMMANDLINE_ARGS`
+наприклад: `set COMMANDLINE_ARGS= --xformers --autolaunch  --medvram --no-half` 
 
+*P.S. Через специфіку Windows будь-яка спроба заблокувати доступ до мережі може призвести до збою процесів встановлення/оновлення, тому вам доведеться повторно запустити .bat.*
+
+----
 # КОРИСНІ ПОСИЛАННЯ:
 - Онлайн версія:  
-    - [ ] **Stable Diffusion:**       https://github.com/easydiffusion/easydiffusion 
+    - [ ] **Stable EasyDiffusion:**       https://github.com/easydiffusion/easydiffusion 
 
 - Професійна  локальна версія (потрібна відеокарта NVIDIA 4гб ОЗУ) 
-    - [X] **Stable Diffusion Portable:**          https://github.com/serpotapov/stable-diffusion-portable
-
+    - [X] **Stable Diffusion Portable: сайт автора**          https://github.com/serpotapov/stable-diffusion-portable
+  
 -  Вікіпедія по нейронкі:
     - [ ] https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki
 
