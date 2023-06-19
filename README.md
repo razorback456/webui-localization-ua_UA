@@ -77,27 +77,28 @@
      - `drag and drop` зображень/тексту у вікно промпту
 - Read Generation Parameters Button, читає промпт з картинки 
 - Сторінка налаштувань
-- Running arbitrary python code from UI (must run with `--allow-code` to enable)
-- Mouseover hints for most UI elements
+- Запуск довільного коду python з інтерфейсу користувача (щоб увімкнути, потрібно запускати з `--allow-code`)
+- Підказки при наведенні миші для більшості елементів інтерфейсу (локалізація підказок українською Читайте інструкцію вгорі)
 - Possible to change defaults/mix/max/step values for UI elements via text config
-- Tiling support, a checkbox to create images that can be tiled like textures
-- Progress bar and live image generation preview
-    - Can use a separate neural network to produce previews with almost none VRAM or compute requirement
-- Negative prompt, an extra text field that allows you to list what you don't want to see in generated image
-- Styles, a way to save part of prompt and easily apply them via dropdown later
-- Variations, a way to generate same image but with tiny differences
-- Seed resizing, a way to generate same image but at slightly different resolution
-- CLIP interrogator, a button that tries to guess prompt from an image
-- Prompt Editing, a way to change prompt mid-generation, say to start making a watermelon and switch to anime girl midway
-- Batch Processing, process a group of files using img2img
-- Img2img Alternative, reverse Euler method of cross attention control
-- Highres Fix, a convenience option to produce high resolution pictures in one click without usual distortions
-- Reloading checkpoints on the fly
-- Checkpoint Merger, a tab that allows you to merge up to 3 checkpoints into one
-- [Custom scripts](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts) with many extensions from community
-- [Composable-Diffusion](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/), a way to use multiple prompts at once
-     - separate prompts using uppercase `AND`
-     - also supports weights for prompts: `a cat :1.2 AND a dog AND a penguin :2.2`
+- Можливість зміни значень defaults/mix/max/step для елементів UI за допомогою  text config
+- Підтримка Тайлових текстур, прапорець для створення зображень, які можна розміщувати як текстури
+- Індикатор прогресу та попередній перегляд створення живого зображення
+    - Може використовувати окрему нейронну мережу для створення попередніх переглядів майже без вимог до `VRAM` або обчислень
+- Негативний промпт, додаткове текстове поле, яке дозволяє вказати те, що ви не хочете бачити на створеному зображенні
+- Шаблони, спосіб зберегти частину промпту та легко застосувати їх у спадному списку пізніше
+- Варіації, спосіб створення того самого зображення, але з невеликими відмінностями
+- Seed ресайз, спосіб створення того самого зображення, але з дещо іншою роздільною здатністю
+- CLIP interrogator, кнопка, яка намагається вгадати промпт із зображення
+- Prompt Editing, спосіб змінити підказку середнього покоління, скажімо, почати робити кавун і перейти на аніме-дівчинку на півдорозі
+- Batch Processing, обробити групу файлів за допомогою img2img
+- Img2img Alternative, зворотний метод Ейлера перехресного контролю уваги
+- Highres Fix, зручна опція для створення зображень високої роздільної здатності в один клік без звичайних спотворень
+- Перезавантаження Чекпоінтів на льоту
+- Checkpoint Merger, вкладка, яка дозволяє об'єднати до 3 Checkpoint точок в одну
+- [Користувацькі сценарії](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts) із багатьма розширеннями від спільноти
+- [Composable-Diffusion](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/), спосіб використання кількох промптів одночасно
+     - розділяйте промпти великими літерами `AND`
+     - також підтримує ваги для підказок: `a cat :1.2 AND a dog AND a penguin :2.2`
 - No token limit for prompts (original stable diffusion lets you use up to 75 tokens)
 - DeepDanbooru integration, creates danbooru style tags for anime prompts
 - [xformers](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Xformers), major speed increase for select cards: (add `--xformers` to commandline args)
