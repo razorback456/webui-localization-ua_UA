@@ -116,7 +116,7 @@
 - API
 - Підтримка спеціальної [моделі малювання](https://github.com/runwayml/stable-diffusion#inpainting-with-stable-diffusion) від RunwayML
 - через розширення: [Aesthetic Gradients](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients), спосіб генерувати зображення з певною естетикою за допомогою вбудованих зображень кліпів (реалізація [https:/ /github.com/vicgalle/stable-diffusion-aesthetic-gradients](https://github.com/vicgalle/stable-diffusion-aesthetic-gradients))
--Підтримка [Stable Diffusion 2.0](https://github.com/Stability-AI/stablediffusion) – див. [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#stable-diffusion) -20) для інструкцій
+- Підтримка [Stable Diffusion 2.0](https://github.com/Stability-AI/stablediffusion) – див. [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#stable-diffusion) -20) для інструкцій
 - Підтримка [Alt-Diffusion](https://arxiv.org/abs/2211.06679) — див. [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#alt-diffusion) інструкції
 - Тепер без поганих букв!
 - Завантажте Чекпоінти у форматі safetensors
@@ -124,26 +124,25 @@
 - Тепер з ліцензією!
 - Змініть порядок елементів в інтерфейсі користувача з екрана налаштувань
 
-## Installation and Running
-Make sure the required [dependencies](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies) are met and follow the instructions available for both [NVidia](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs) (recommended) and [AMD](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-AMD-GPUs) GPUs.
+## Встановлення та запуск
+Переконайтеся, що необхідні [залежності](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies) виконано, і дотримуйтесь інструкцій, доступних для обох [NVidia](https://github.com/AUTOMATIC1111) /stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs) (рекомендовано) і [AMD](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and -Run-on-AMD-GPUs) Графічні процесори.
 
-Alternatively, use online services (like Google Colab):
+Альтернатива, скористайтеся онлайн-сервісами (наприклад, Google Colab):
 
-- [List of Online Services](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Online-Services)
+-[Список онлайн-сервісів](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Online-Services)
 
-### Installation on Windows 10/11 with NVidia-GPUs using release package
-1. Download `sd.webui.zip` from [v1.0.0-pre](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.0.0-pre) and extract it's contents.
-2. Run `update.bat`.
-3. Run `run.bat`.
-> For more details see [Install-and-Run-on-NVidia-GPUs](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs)
+### Встановлення на Windows 10/11 з графічним процесором NVidia за допомогою пакета релізу
+1. Завантажте `sd.webui.zip` з [v1.0.0-pre](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.0.0-pre) і розпакуйте його вміст.
+2. Запустіть `update.bat`.
+3. Запустіть `run.bat`.
+> Щоб отримати докладнішу інформацію, перегляньте [Install-and-Run-on-NVidia-GPUs](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs)
 
-### Automatic Installation on Windows
-1. Install [Python 3.10.6](https://www.python.org/downloads/release/python-3106/) (Newer version of Python does not support torch), checking "Add Python to PATH".
-2. Install [git](https://git-scm.com/download/win).
-3. Download the stable-diffusion-webui repository, for example by running `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git`.
-4. Run `webui-user.bat` from Windows Explorer as normal, non-administrator, user.
-
-### Automatic Installation on Linux
+### Автоматичне встановлення на Windows
+1. Установіть [Python 3.10.6](https://www.python.org/downloads/release/python-3106/) (Новіша версія Python не підтримує torch), позначивши «Додати Python до PATH».
+2. встановити [git](https://git-scm.com/download/win).
+3. Завантажте репозиторій stable-diffusion-webui, наприклад, запустивши `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git`.
+4. Запустіть `webui-user.bat` з Windows Explorer як звичайний користувач без прав адміністратора.
+### Автоматичне встановлення на Linux
 1. Install the dependencies:
 ```bash
 # Debian-based:
@@ -159,19 +158,18 @@ bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusio
 ```
 3. Run `webui.sh`.
 4. Check `webui-user.sh` for options.
-### Installation on Apple Silicon
+### Установка на Apple Silicon
 
-Find the instructions [here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon).
+Знайдіть інструкції [тут](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon).
 
-## Contributing
-Here's how to add code to this repo: [Contributing](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Contributing)
+## сприяння
+Ось як додати код до цього сховища: [Внесок](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Внесок)
 
-## Documentation
-The documentation was moved from this README over to the project's [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki).
+## документація
+Документацію було переміщено з цього README до [вікі] проекту (https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki).
 
-## Credits
-Licenses for borrowed code can be found in `Settings -> Licenses` screen, and also in `html/licenses.html` file.
-
+## Ліцензії
+Ліцензії для запозиченого коду можна знайти на екрані `Налаштування - Ліцензії`, а також у файлі `html/licenses.html`.
 - Stable Diffusion - https://github.com/CompVis/stable-diffusion, https://github.com/CompVis/taming-transformers
 - k-diffusion - https://github.com/crowsonkb/k-diffusion.git
 - GFPGAN - https://github.com/TencentARC/GFPGAN.git
@@ -198,4 +196,4 @@ Licenses for borrowed code can be found in `Settings -> Licenses` screen, and al
 - UniPC sampler - Wenliang Zhao - https://github.com/wl-zhao/UniPC
 - TAESD - Ollin Boer Bohan - https://github.com/madebyollin/taesd
 - Initial Gradio script - posted on 4chan by an Anonymous user. Thank you Anonymous user.
-- (You)
+- Переклад **Українською** `razorback456`    https://www.artstation.com/razorback456
