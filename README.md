@@ -8,10 +8,10 @@
 - **hints.js**  -покласти в папку     **...\javascript**
 
  ### ВАРІАНТ  2
- - вставити адресу **https://github.com/razorback456/webui-localization-ua_UA/**  в поле на скріншоті 
-![screenshot](https://github.com/razorback456/webui-localization-ua_UA/assets/11790479/f4a9043d-9202-4910-bcce-8075db7f546a)
+ - вставити адресу **https://github.com/razorback456/webui-localization-ua_UA/**  в поле на скріншоті
+ - ![screenshot](https://github.com/razorback456/webui-localization-ua_UA/assets/11790479/bde16ff9-a83a-4f73-a9f8-4a6847f64387)
 - натиснути "встановити"(Інстал)
- ![screenshot2](https://github.com/razorback456/webui-localization-ua_UA/assets/11790479/603c74be-eec2-4951-af72-83aa2e448606)
+![screenshot2](https://github.com/razorback456/webui-localization-ua_UA/assets/11790479/08144c38-fc4a-48e4-b28c-87b075f332a7)
 - натиснути "прийняти і рестартонути UV"
 
 # КОРИСНІ ПОСИЛАННЯ:
@@ -29,7 +29,7 @@
 
 # Stable Diffusion web UI
 Інтерфейс браузера на основі бібліотеки Gradio для Stable Diffusion.
-![screenshot](https://github.com/razorback456/webui-localization-ua_UA/assets/11790479/eaca0b8d-f7fe-48fc-9702-a45995e8d25f)
+![screenshot](https://github.com/razorback456/webui-localization-ua_UA/assets/11790479/268b5e5f-6fe0-4228-bb43-062ce3ed896b)
 
 ## Особливості
 [Детальна демонстрація функцій із зображеннями](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features):
