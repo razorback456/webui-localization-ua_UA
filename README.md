@@ -50,7 +50,7 @@
 - Професійна  локальна версія (потрібна відеокарта NVIDIA 4гб ОЗУ) 
     - [X] **Stable Diffusion Portable: сайт автора**          https://github.com/serpotapov/stable-diffusion-portable
   
--  Вікіпедія по нейронкі:
+-  Вікіпедія по Stable Diffusion:
     - [ ] Укр.  https://github.com/razorback456/webui-localization-ua_UA/wiki
     - [ ] Англ. https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki
 
