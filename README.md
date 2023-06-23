@@ -35,6 +35,7 @@
 5. при помилках через нестачу пам'яті, в `webui-user.bat`  потрібно додпти ключі `--medvram --no-half`
    в  рядок `set COMMANDLINE_ARGS`
 наприклад: `set COMMANDLINE_ARGS= --xformers --autolaunch  --medvram --no-half` 
+
 6.Після установки скачайте додаткові моделі в папку `models`,</br>
  розмістіть  модель    у каталозі `...modelsStable-diffusion`</br>
  Приклад повного шляху: </br>
