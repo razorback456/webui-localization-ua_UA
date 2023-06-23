@@ -30,15 +30,18 @@
  Бажано кореневий каталог, шлях не повинен містити пробілів і кирилиці</br>
  приклад: `С:\stable-diffusion-portable-main`</br>
 3. Запустити `webui-user-first-run.cmd` і зачекайте пару секунд
-4.Коли ви бачите папку `models` (під час роботи cmd),</br>
- розмістити будь-яку модель (наприклад [Deliberate](https://huggingface.co/XpucT/Deliberate/resolve/main/Deliberate_v2.safetensors)) у каталозі `...modelsStable-diffusion`</br>
- Приклад повного шляху: </br>
- `С:\stable-diffusion-portable-main\models\Stable-diffusion\Deliberate_v2.safetensors`
-5. Після завершення завантаження ваш браузер запустить Stable Diffusion</br>
+4. Після завершення завантаження ваш браузер запустить Stable Diffusion</br>
  Основною програмою запуску на майбутнє буде `webui-user.bat`
-6. при помилках через нестачу пам'яті, в `webui-user.bat`  потрібно додпти ключі `--medvram --no-half`
+5. при помилках через нестачу пам'яті, в `webui-user.bat`  потрібно додпти ключі `--medvram --no-half`
    в  рядок `set COMMANDLINE_ARGS`
 наприклад: `set COMMANDLINE_ARGS= --xformers --autolaunch  --medvram --no-half` 
+6.Після установки скачайте додаткові моделі в папку `models`,</br>
+ розмістіть  модель    у каталозі `...modelsStable-diffusion`</br>
+ Приклад повного шляху: </br>
+ `С:\stable-diffusion-portable-main\models\Stable-diffusion\ваша модель.safetensors`
+
+Рекомендую модель:
+ReV Animated  https://civitai.com/models/7371?modelVersionId=46846
 
 *P.S. Через специфіку Windows будь-яка спроба заблокувати доступ до мережі може призвести до збою процесів встановлення/оновлення, тому вам доведеться повторно запустити .bat.*
 
