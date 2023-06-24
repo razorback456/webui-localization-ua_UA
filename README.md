@@ -13,9 +13,9 @@
      - ![image](https://github.com/razorback456/webui-localization-ua_UA/assets/11790479/2a3aa775-5205-4860-8f86-d812f39b77fa)
 ----
 - розпакувати архів
-- **webui-localization-ua_UA**    -покласти папку     **...\extensions**
+- каталог **webui-localization-ua_UA**    -покласти папку     **...\extensions**  наприклад: C:\sd.webui\extensions\webui-localization-ua_UA
 
-- **hints.js**  -покласти в папку     **...\javascript**
+- **hints.js**  -покласти в папку     **...\javascript**   наприклад: C:\sd.webui\javascript\hints.js
 
  ### ВАРІАНТ  2
  - вставити адресу **https://github.com/razorback456/webui-localization-ua_UA/**  в поле на скріншоті
@@ -25,35 +25,29 @@
 - натиснути "прийняти і рестартонути UV"
 ----
 ## Установка Stable Diffusion Portable: потрібна відеокарта NVIDIA 4гб ОЗУ  (для інших карт встановлюй версію EasyDiffusion нижче)
-1. скачати [Stable Diffusion Portable](https://github.com/serpotapov/stable-diffusion-portable/archive/refs/heads/main.zip)
-2. розпакувати `stable-diffusion-portable-main` на диск `c:\` </br>
- Бажано кореневий каталог, шлях не повинен містити пробілів і кирилиці</br>
- приклад: `С:\stable-diffusion-portable-main`</br>
-3. Запустити `webui-user-first-run.cmd` і зачекайте пару секунд
-4. Після завершення завантаження ваш браузер запустить Stable Diffusion</br>
- Основною програмою запуску на майбутнє буде `webui-user.bat`
-5. при помилках через нестачу пам'яті, в `webui-user.bat`  потрібно додпти ключі `--medvram --no-half`
-   в  рядок `set COMMANDLINE_ARGS`
-наприклад: `set COMMANDLINE_ARGS= --xformers --autolaunch  --medvram --no-half` 
+1. скачати `webui.zip` і розпакувати https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.0.0-pre
+2. Запусти скрипт `update.bat`, щоб оновити веб-інтерфейс користувача до останньої версії, зачекайте до завершення та закрийте вікно.
+3. Двічі клацніть скрипт `run.bat`, щоб запустити веб-інтерфейс; під час першого запуску він завантажить велику кількість файлів. Після того, як усе було правильно завантажено та встановлено, ви повинні побачити повідомлення 'Running on local URL:  http://127.0.0.1:786'. Скопіюйте адресу `http://127.0.0.1:786` з консолі і встав в браузер щоб відкрити інтерфейс нейронки.
+4. при першому запуску скрипт завантажить оновлення і видасть помилку, просто треба закрити консоль і знову запустити `run.bat` з оновленими даними
+5. щоб зробити автоматично відкриття сторінки нейромережі в браузері  потрібно  файл `sd.webui\webui\webui-user.bat`  відкрити в блокноті додати команду `set COMMANDLINE_ARGS=--autolaunch --update-check` - ці команди перевірятимуть оновлення і запускатимуть браузер.
+6. я в себе налаштував так: `set COMMANDLINE_ARGS= --xformers   --medvram --no-half  --update-check --autolaunch --ckpt-dir C:\\_AI_SD_P/models/Stable-diffusion`
+   - '--xformers' - для оптимізаці відео пам'яті  - при першому запуску буде скачувати бібліотеки до 5гіг
+   -  '--medvram --no-half '  - для зменшення навантаження на відеопам'ять щоб уникнути помилок нестачі пам'яті
+   -  '--update-check --autolaunch'   -для автоматичного запуску браузера
+   -  `--ckpt-dir C:\\_AI_SD_P/models/Stable-diffusion`   -шлях до каталога з чекпоінтами, корисно якщо у вас стоїть декілька нейромереж щоб не дублювати  файли в мене один каталог використовується всіма нейронками.
 
-6.Після установки скачайте додаткові моделі в папку `models`,</br>
- розмістіть  модель    у каталозі `...modelsStable-diffusion`</br>
- Приклад повного шляху: </br>
- `С:\stable-diffusion-portable-main\models\Stable-diffusion\ваша модель.safetensors`
-
-Рекомендую модель:
+6.Після установки скачайте додаткові моделі в папку `C:\_sd.webui\webui\models\Stable-diffusion`,</br>
+Рекомендую качати модель:
 ReV Animated  https://civitai.com/models/7371?modelVersionId=46846
-
-*P.S. Через специфіку Windows будь-яка спроба заблокувати доступ до мережі може призвести до збою процесів встановлення/оновлення, тому вам доведеться повторно запустити .bat.*
+Також при першому запуску  нейронка автоматично скачає стандарту модель 1.5..
 
 ----
 # КОРИСНІ ПОСИЛАННЯ:
-- Онлайн версія:  
-    - [ ] **Stable EasyDiffusion:**       https://github.com/easydiffusion/easydiffusion 
+- Локальна версія версія для потужних ПК (рекомендую ставити її)
+-[ ] **sd.webui** https://github.com/AUTOMATIC1111/stable-diffusion-webui
+-  Онлайн версія для слабких ПК:  
+- [ ] **Stable EasyDiffusion:**       https://github.com/easydiffusion/easydiffusion 
 
-- Професійна  локальна версія (потрібна відеокарта NVIDIA 4гб ОЗУ) 
-    - [X] **Stable Diffusion Portable: сайт автора**          https://github.com/serpotapov/stable-diffusion-portable
-  
 -  Вікіпедія по Stable Diffusion:
     - [ ] Укр.  https://github.com/razorback456/webui-localization-ua_UA/wiki
     - [ ] Англ. https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki
