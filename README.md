@@ -36,13 +36,13 @@ ReV Animated  https://civitai.com/models/7371?modelVersionId=46846
 
 ----
 # КОРИСНІ ПОСИЛАННЯ:
-- Локальна версія версія для потужних ПК (рекомендую ставити її)
--[ ] **sd.webui** https://github.com/AUTOMATIC1111/stable-diffusion-webui
+- Локальна версія версія для потужних ПК (рекомендую ставити її)<br/>
+- [x] **sd.webui** https://github.com/AUTOMATIC1111/stable-diffusion-webui
 -  Онлайн версія для слабких ПК:  
 - [ ] **Stable EasyDiffusion:**       https://github.com/easydiffusion/easydiffusion 
 
 -  Вікіпедія по Stable Diffusion:
-    - [ ] Укр.  https://github.com/razorback456/webui-localization-ua_UA/wiki
+    - [x] Укр.  https://github.com/razorback456/webui-localization-ua_UA/wiki
     - [ ] Англ. https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki
 
 # Переклад Редмі: 
