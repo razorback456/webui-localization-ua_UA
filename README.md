@@ -8,8 +8,10 @@
 ----
 *перед установкою локалізації у вас повинен бути встановлений  Stable Diffusion -де його скачати і як встановити читайте кижче.*
 
+- Записав на відео  свій  бубньож для чайників по установці і локалізації #StableDiffusion з нуля  #AI
+    - https://youtu.be/QScLDIdTIec
 
-[![Stable Diffusion Review]([https://i.imgur.com/JbBPYuE.jpg](https://github.com/razorback456/webui-localization-ua_UA/assets/11790479/72ada22e-a72c-45f1-9baf-b546bdcf92b9))]([https://youtu.be/jepK6ufemMw](https://youtu.be/QScLDIdTIec))
+
 ## Установка локалізації:
 - скачати файли локалізації:
      - ![image](https://github.com/razorback456/webui-localization-ua_UA/assets/11790479/2a3aa775-5205-4860-8f86-d812f39b77fa)
